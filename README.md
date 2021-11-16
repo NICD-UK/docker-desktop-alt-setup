@@ -48,6 +48,13 @@ The next command will install the docker CLI that we'lll use to talk to the mult
 brew install docker
 ```
 
+## Install Docker Compose
+
+The next command will install the Docker Compose CLI that we'lll use to talk to the multipass VM.
+
+```
+brew install docker-compose
+```
 
 
 ## Mount local home directory to vm
