@@ -87,11 +87,11 @@ exit
 ## Create context so that the docker cli connects to the VM via SSH
 
 ```
-docker context create docker-vm --docker "host=ssh://ubuntu@<your-vm-ip-address>:22"
+docker context create docker-vm --docker "host=ssh://ubuntu@docker-machine.local:22"
 docker context use docker-vm 
 ```
 
-## If you need to change the IP or other details of the context use:
+## If you need to change the host to an IP or other details of the context use:
 ```
 docker context update docker-vm --docker "host=ssh://ubuntu@192.168.64.4:22"
 ```
