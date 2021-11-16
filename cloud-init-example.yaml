@@ -2,6 +2,8 @@ ssh_authorized_keys:
   - <insert your public ssh key here>
 packages:
  - docker.io
+ - avahi-daemon
+ - libnss-mdns
 groups:
   - docker
 users:
